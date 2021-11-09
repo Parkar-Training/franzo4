@@ -34,7 +34,7 @@ import random,smtplib
 #@csrf_exempt
 
 def users_new2(request):
-    print("----------inside user new function")
+    print("<---><><  user new function called  ><--->")
 
     form = serializerClass()
     if(request.method == 'GET'):
